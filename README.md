@@ -33,7 +33,7 @@ cd blockchain-relay-agent && npm install
 {
   "daemon": {
     "host": "localhost",
-    "port": 11898
+    "port": 39700
   },
   "queues": {
     "relayAgent": "request.network"
