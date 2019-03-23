@@ -43,7 +43,7 @@ function buildConnectionString (host, username, password) {
 }
 
 if (cluster.isMaster) {
-  console.log('Starting TurtlePay Blockchain Relay Agent...')
+  console.log('Starting MIMI Money Blockchain Relay Agent...')
 
   for (var cpuThread = 0; cpuThread < cpuCount; cpuThread++) {
     spawnNewWorker()
